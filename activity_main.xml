@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/first"
+        android:text="button 1"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/second"
+        android:text="button 2"
+        android:layout_alignParentEnd="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/third"
+        android:text="button 3"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/second"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fourth"
+        android:text="button 4"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/first"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fifth"
+        android:text="button 5"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@id/fourth"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/six"
+        android:text="button 6"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/fifth"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seven"
+        android:text="button 7"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/six"    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eight"
+        android:text="button 8"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/seven"    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nine"
+        android:text="button 9"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/seven"    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ten"
+        android:text="button 10"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/nine"    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eleven"
+        android:text="button 11"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/nine"    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/twelve"
+        android:text="button 12"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/eleven"    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thirteen"
+        android:text="button 13"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/twelve"    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fourthteen"
+        android:text="button 14"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/thirteen"    />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fifthteen"
+        android:text="button 15"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/fourthteen"    />
+
+</RelativeLayout>
